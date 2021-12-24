@@ -12,7 +12,7 @@ import org.apache.commons.codec.binary.Base64;
 
 public class OAuthParameterHelper {
 
-	public static void calculateRequestTokenParameter(JiraOAuthGetTemporaryToken httpRequestBean) {
+	public static void calculateRequestTokenParameter(JiraOAuthRequest httpRequestBean) {
 		
 	}
 	

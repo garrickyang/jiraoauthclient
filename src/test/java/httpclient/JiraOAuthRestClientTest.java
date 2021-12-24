@@ -13,7 +13,7 @@ public class JiraOAuthRestClientTest {
 		String jiraBaseUrl = "https://jira-gcs-hz.atlassian.net/rest/api/2/issue/JG-84";
 		
 		JiraOAuthRestClient jiraOAuthGetAccessToken = new JiraOAuthRestClient(jiraBaseUrl,
-				consumer_key, private_key,"bDsCdO","D1Cf9ORcmMCr1kiuq9W3C4OKHJa0Qc38");
+				consumer_key, private_key,"QpaStC","FAwT4UsXGWDnm9dlh2tfcjLxrDEzQZyb");
 		
 		jiraOAuthGetAccessToken.executeRequest();
 		
